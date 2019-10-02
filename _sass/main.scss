@@ -1,5 +1,4 @@
 $color-black: rgb(24, 27, 28);
-$color-green: rgb(73, 135, 62);
 $color-blue: rgb(176, 192, 220);
 
 $font-roboto: "Roboto", sans-serif;
@@ -11,16 +10,18 @@ $font-merriweather: "Merriweather", serif;
   margin: 0;
 }
 
-html,head,body {
+html {
+  background-color: darken(#555, 10);
 }
 
 body {
-    font-family: $font-merriweather;
+  font-family: $font-merriweather;
 }
 
-p, a {
-    font-family: $font-roboto;  
-    text-decoration: none;
+p,
+a {
+  font-family: $font-roboto;
+  text-decoration: none;
 }
 
 .content {
@@ -34,27 +35,37 @@ p, a {
 }
 
 .navbar {
-  background-color: $color-green;
+  background-color: lighten($color-black, 10);
   font-size: 0;
   display: flex;
   flex-direction: row;
+  line-height: 48px;
 }
 
 .navbar a {
-    font-size: initial;
-    flex: 1;
-    text-align: center;
+  font-size: initial;
+  flex: 1;
+  text-align: center;
+  color: lighten($color-black, 60);
 }
 
 .navbar a:hover {
-  background-color: lighten($color: $color-green, $amount: 5);
+  background-color: $color-black;
+  color: lighten($color-black, 80);
 }
 
 .content {
-    background-color: lighten($color: $color-green, $amount: 40);
+  background-color: #fff;
 }
 
 .aside {
-    background-color: lighten($color-green, 30);
-    padding: 1em;
+  background-color: darken(#fff, 8);
+  padding: 1em;
+}
+
+.footer {
+  background-color: lighten($color-black, 10);
+  line-height: 48px;
+  text-align: center;
+  color: lighten($color-black, 60);
 }

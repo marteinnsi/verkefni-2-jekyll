@@ -26,6 +26,8 @@
     grid-template-columns: 1fr;
     grid-template-rows: 48px 1fr 48px;
     grid-template-areas: "navbar" "wrapper" "footer";
+    max-width: 80em;
+    margin: 0 auto;
   }
 
   .wrapper {
@@ -35,13 +37,6 @@
     grid-template-areas: "content aside";
   }
 
-  .navbar {
-    line-height: 48px;
-  }
-
-  .footer {
-    line-height: 48px;
-  }
 }
 
 /* Tablet layout */
@@ -62,16 +57,11 @@
   }
 
   .navbar {
-    line-height: 48px;
     flex-wrap: wrap;
   }
 
   .navbar a {
     flex-basis: 100%;
-  }
-
-  .footer {
-    line-height: 48px;
   }
 }
 
@@ -93,16 +83,10 @@
   }
 
   .navbar {
-    line-height: 48px;
-    line-height: 48px;
     flex-wrap: wrap;
   }
 
   .navbar a {
     flex-basis: 100%;
-  }
-
-  .footer {
-    line-height: 48px;
   }
 }

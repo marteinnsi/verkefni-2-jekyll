@@ -1,5 +1,13 @@
 ---
 title: Home
 ---
-# Marteinns Blog!
-Welcome to Marteinns blog. Here at Marteinns blog we are proud to be bringing you the latest math news.
+# Marteinns Blog
+
+<ul>
+    {% for post in site.posts %}
+    <li>
+        <h2><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h2>
+        {{ post.excerpt }}
+    </li>
+    {% endfor %}
+</ul>

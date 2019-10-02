@@ -2,4 +2,4 @@
 title: About
 ---
 # About page
-This page tells you a little bit about me.
+My name is Marteinn and I am a student at Tækniskólinn. Here at Marteinns blog we write about all the best math and the most recent math news.
