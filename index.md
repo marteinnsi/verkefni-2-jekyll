@@ -2,6 +2,7 @@
 title: Home
 ---
 # Marteinns Blog
+Welcome back to Marteinns blog. Here you can read about bananas, apples and math. Feel free to check out our most recent posts:
 
 <ul>
     {% for post in site.posts %}
