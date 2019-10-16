@@ -107,39 +107,39 @@
        inkscape:perspectiveID="#perspective3773"
        inkscape:corner0="14.17864 : -0.045595456 : 0 : 1"
        inkscape:corner7="7.0165853 : -0.080724555 : 58.163059 : 1"
-       style="fill:#008000">
+       style="fill:#4d4d4d">
       <path
          sodipodi:type="inkscape:box3dside"
          id="path113"
-         style="fill:#008000;fill-rule:evenodd;stroke:none;stroke-linejoin:round"
+         style="fill:#4d4d4d;fill-rule:evenodd;stroke:none;stroke-linejoin:round"
          inkscape:box3dsidetype="6"
          d="m 1.3878464,286.06582 v 2.31438 L 116.3,291.77555 v -0.47898 z"
          points="1.3878464,288.3802 116.3,291.77555 116.3,291.29657 1.3878464,286.06582 " />
       <path
          sodipodi:type="inkscape:box3dside"
          id="path121"
-         style="fill:#008000;fill-rule:evenodd;stroke:none;stroke-linejoin:round"
+         style="fill:#4d4d4d;fill-rule:evenodd;stroke:none;stroke-linejoin:round"
          inkscape:box3dsidetype="13"
          d="M 1.3878464,288.3802 5.3867522,293.69499 129.22036,292.7868 116.3,291.77555 Z"
          points="5.3867522,293.69499 129.22036,292.7868 116.3,291.77555 1.3878464,288.3802 " />
       <path
          sodipodi:type="inkscape:box3dside"
          id="path123"
-         style="fill:#008000;fill-rule:evenodd;stroke:none;stroke-linejoin:round"
+         style="fill:#4d4d4d;fill-rule:evenodd;stroke:none;stroke-linejoin:round"
          inkscape:box3dsidetype="11"
          d="m 116.3,291.29657 12.92036,0.95942 v 0.53081 L 116.3,291.77555 Z"
          points="129.22036,292.25599 129.22036,292.7868 116.3,291.77555 116.3,291.29657 " />
       <path
          sodipodi:type="inkscape:box3dside"
          id="path115"
-         style="fill:#008000;fill-rule:evenodd;stroke:none;stroke-linejoin:round"
+         style="fill:#4d4d4d;fill-rule:evenodd;stroke:none;stroke-linejoin:round"
          inkscape:box3dsidetype="5"
          d="M 1.3878464,286.06582 5.3867522,289.31293 129.22036,292.25599 116.3,291.29657 Z"
          points="5.3867522,289.31293 129.22036,292.25599 116.3,291.29657 1.3878464,286.06582 " />
       <path
          sodipodi:type="inkscape:box3dside"
          id="path117"
-         style="fill:#008000;fill-rule:evenodd;stroke:none;stroke-linejoin:round"
+         style="fill:#4d4d4d;fill-rule:evenodd;stroke:none;stroke-linejoin:round"
          inkscape:box3dsidetype="3"
          d="m 1.3878464,286.06582 3.9989058,3.24711 v 4.38206 L 1.3878464,288.3802 Z"
          points="5.3867522,289.31293 5.3867522,293.69499 1.3878464,288.3802 1.3878464,286.06582 " />

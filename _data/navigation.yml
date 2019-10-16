@@ -1,11 +1,15 @@
 - name: Home
   link: /
+  icon: icon-home
 
 - name: About
   link: /about.html
+  icon: icon-about
 
 - name: Blog
   link: /blog.html
+  icon: icon-blog
 
 - name: Staff
   link: /staff.html
+  icon: icon-staff
