@@ -11,14 +11,18 @@
 </head>
 
 <body>
+
+
   <div class="grid-container">
     {% include navigation.html %}
     <div class="footer">
       <p>&copy; 2019 Marteinn Hugi</p>
     </div>
 
+
     <div class="wrapper">
       <div class="content">
+        <img src="{{"/assets/img/logo_banner.svg" | relative_url }}" alt="">
         {{ content }}
       </div>
       <div class="aside">

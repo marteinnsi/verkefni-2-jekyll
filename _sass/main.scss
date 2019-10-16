@@ -69,3 +69,13 @@ a {
   text-align: center;
   color: lighten($color-black, 60);
 }
+
+.ad {
+  width: 100%;
+  height: auto;
+}
+
+.blog-list {
+  margin-left: 24px;
+  list-style-image: url('../img/leaf.svg');
+}

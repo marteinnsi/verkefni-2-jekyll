@@ -1,7 +1,8 @@
-I"J<h1 id="marteinns-blog">Marteinns Blog</h1>
-<p>Welcome back to Marteinns blog. Feel free to check out our most recent posts:</p>
-
-<ul>
+I"›<h1 id="marteinns-blog">Marteinns Blog</h1>
+<p>Welcome back to Marteinns blog. Here you can read about bananas, apples and math. Feel free to check out our most recent posts:
+<br />
+<br /></p>
+<ul class="blog-list">
     
     <li>
         <h2><a href="/verkefni-2-jekyll/2019/09/02/pi.html">Pi</a></h2>
