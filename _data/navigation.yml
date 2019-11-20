@@ -13,3 +13,11 @@
 - name: Staff
   link: /staff.html
   icon: icon-staff
+
+- name: Tafla
+  link: /tafla.html
+  icon: icon-table
+
+- name: Form
+  link: /form.html
+  icon: icon-form

@@ -80,13 +80,33 @@ a {
   list-style-image: url("../img/leaf.svg");
 }
 
+table {
+  border-collapse: collapse;
+  table-layout : fixed;
+  width: 100%;
+  border: 3px solid gray;
+}
+
+table th {
+  background-color: #34a853;
+  padding: 0.5em;
+}
+
+table td {
+  padding: 0.35em;
+}
+
+table tr:nth-child(even){
+  background-color: lightgray;
+}
+
 @font-face {
   font-family: 'icomoon';
-  src:  url('../font/icomoon.eot?v2thl8');
-  src:  url('../font/icomoon.eot?v2thl8#iefix') format('embedded-opentype'),
-    url('../font/icomoon.ttf?v2thl8') format('truetype'),
-    url('../font/icomoon.woff?v2thl8') format('woff'),
-    url('../font/icomoon.svg?v2thl8#icomoon') format('svg');
+  src:  url('../font/icomoon.eot?j9b526');
+  src:  url('../font/icomoon.eot?j9b526#iefix') format('embedded-opentype'),
+    url('../font/icomoon.ttf?j9b526') format('truetype'),
+    url('../font/icomoon.woff?j9b526') format('woff'),
+    url('../font/icomoon.svg?j9b526#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -113,20 +133,17 @@ a {
 .icon-blog:before {
   content: "\e907";
 }
+.icon-form:before {
+  content: "\e926";
+}
 .icon-staff:before {
-  content: "\e9de";
+  content: "\e972";
 }
 .icon-about:before {
   content: "\ea0c";
 }
-.icon-youtube:before {
-  content: "\ea9d";
-}
-.icon-twitch:before {
-  content: "\ea9f";
-}
-.icon-steam:before {
-  content: "\eaac";
+.icon-table:before {
+  content: "\ea70";
 }
 .icon-github:before {
   content: "\eab0";
