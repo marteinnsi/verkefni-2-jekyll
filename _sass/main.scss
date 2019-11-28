@@ -100,6 +100,32 @@ table tr:nth-child(even){
   background-color: lightgray;
 }
 
+form {
+  margin: 0;
+  border: 3px solid gray;
+}
+
+form fieldset {
+  border: none;
+  padding: 1em 0.5em;
+}
+
+form legend {
+  padding: 1em 2em;
+  background-color: #34a853;
+  font-weight:bold;
+  width: 100%;
+}
+
+form input {
+  display: block;
+}
+
+input+input {
+  display: block;
+  margin-top: 1em;
+}
+
 @font-face {
   font-family: 'icomoon';
   src:  url('../font/icomoon.eot?j9b526');
